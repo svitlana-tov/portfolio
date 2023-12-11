@@ -90,6 +90,33 @@ h2 {
 .svitlana-picture {
   max-width: 70%;
 }
+.logo {
+  max-height: 110px;
+}
+nav {
+  padding-top: 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 40px;
+  font-size: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
 
 @media (max-width: 960px) {
   h1 {
@@ -109,5 +136,8 @@ h2 {
   .content-container {
     text-align: center;
     padding: 80px 0;
+  }
+  nav li {
+    font-size: 16px;
   }
 }
