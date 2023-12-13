@@ -72,6 +72,7 @@ h4 {
   margin: 30px;
 }
 .btn-branding {
+  text-decoration: none;
   background-color: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -80,6 +81,7 @@ h4 {
   padding: 18px 30px;
 }
 .btn-branding-outline {
+  text-decoration: none;
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
@@ -137,6 +139,11 @@ footer .email-link {
   color: black;
   margin-bottom: 30px;
 }
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
